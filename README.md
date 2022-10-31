@@ -11,4 +11,5 @@ Contents:
 - agnw_shell_2.sh ; shell file to automate data collection from blender and HipGISAXS-2.0 simulation process together
 - area_coverage.ipynb; jupyter script to calculate area coverage from a top down image of the blender model
 - averaging_images.ipynb; jupyter script to average many images together, using either all images or subgroups
+-main_u1.py; edited version of main file from d.kumar, as of 31.10.2022, accounts for transposed data output from blender and scalings among other details
 

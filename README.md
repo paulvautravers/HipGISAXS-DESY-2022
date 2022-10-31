@@ -13,6 +13,11 @@ automation
 - agnw_shell.sh; shell file to automate HipGISAXS-2.0 simulation process
 - agnw_shell_2.sh ; shell file to automate data collection from blender and HipGISAXS-2.0 simulation process together
 
+stl files
+To be tested with hipGISAXS-2.0 triangulation simulation
+- cnf triangulation - soft bodies seed 2; stl file for cnf, 25 fibrils
+- agnw_2360_2.stl; stl file for most recent agnw film
+
 misc
 - area_coverage.ipynb; jupyter script to calculate area coverage from a top down image of the blender model
 - averaging_images.ipynb; jupyter script to average many images together, using either all images or subgroups

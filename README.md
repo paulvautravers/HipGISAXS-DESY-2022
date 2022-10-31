@@ -5,11 +5,14 @@ This project focused on the development of real space models of cellulose nanofi
 
 Contents:
 - agnw_2360_cplx.blend; blend basis file for use with python and shell script to create agnw blender film
-- agnw_auto_2360_cplx.bat; .bat file to automate data collection from blender on local system
 - agnw_script_2360_cplx.py; contains code to develop thin film model from blend file and collect data
+-main_u1.py; edited version of main file from d.kumar, as of 31.10.2022, accounts for transposed data output from blender and scalings among other details
+automation
+- agnw_auto_2360_cplx.bat; .bat file to automate data collection from blender on local system
 - agnw_shell.sh; shell file to automate HipGISAXS-2.0 simulation process
 - agnw_shell_2.sh ; shell file to automate data collection from blender and HipGISAXS-2.0 simulation process together
+misc
 - area_coverage.ipynb; jupyter script to calculate area coverage from a top down image of the blender model
 - averaging_images.ipynb; jupyter script to average many images together, using either all images or subgroups
--main_u1.py; edited version of main file from d.kumar, as of 31.10.2022, accounts for transposed data output from blender and scalings among other details
+
 
